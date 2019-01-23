@@ -19,7 +19,7 @@ def user_Input(arr,chance):
         user_inp = input("Your guess: ")
         guess_stat = check_alpha(arr, user_inp, chance)
         if guess_stat:
-            print('Good Guess!')
+            print('\nGood Guess!')
         else:
             chnce -= 1
         wol = win_or_lose(chnce, counter)
@@ -91,7 +91,7 @@ def game_start(string):
 
 
 def read_movie_name():
-    file = open('E:\\Python_PyCharm\\Beginner_Challenges\\Movie_List.txt')
+    file = open('D:\\Ankit\\Github\\Python\\Python-Challenges\\Movie_List.txt')
     movies_list = file.read().splitlines()
     file.close()
     return movies_list
