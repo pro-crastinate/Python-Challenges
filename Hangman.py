@@ -102,5 +102,5 @@ chance = 10
 guess_list = read_movie_name()
 guess_this = random.choice(guess_list)
 #print(guess_list)
-print(guess_this)
+#print(guess_this)
 game_start(guess_this)
